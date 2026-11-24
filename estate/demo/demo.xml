@@ -1,8 +1,8 @@
 <odoo>
     <data>
-        <record id="House_1" model="real.estate">
+        <record id="House_1" model="estate.property">
             <field name="name">House name 1</field>
-            <field name="price">1000000</field>
+            <field name="expected_price">1000000</field>
         </record>
 
     </data>
