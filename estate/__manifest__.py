@@ -4,7 +4,7 @@
     'version': '19.0.0.0.0',
     'license':'OEEL-1',
     'depends':['crm'],
-    'data':[
-        'security/res_groups.xml',
-        'demo':[demo/demo.xml]]
+    'application': True,
+    'data':['security/res_groups.xml'],
+    'demo':['demo/demo.xml'],
     }
